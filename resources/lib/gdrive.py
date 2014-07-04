@@ -21,6 +21,7 @@
 import os
 import re
 import urllib, urllib2
+import urlparse
 
 import xbmc, xbmcaddon, xbmcgui, xbmcplugin
 
@@ -384,6 +385,23 @@ class gdrive:
         return False
 
     def getPlayerLink(self,docid):
+        # compare function for sorted
+        # will sort videoURL by quality
+        def compare_quality(item1, item2):
+            quality_table = ["medium", "large", "hd720", "hd1080"]
+            def get_priority(item):
+                priority = [ quality_table.index(p) for p in quality_table if p in item["query"]["quality"][0] ][0]
+                return priority
+                
+            p1 = get_priority(item1) 
+            p2 = get_priority(item2) 
+
+            if p1 < p2:
+                return -1
+            elif p1 > p2:
+                return 1
+            else:
+               return 0
 
         #effective 2014/02, video stream calls require a wise token instead of writely token
         self.loginWISE()
@@ -471,10 +489,23 @@ class gdrive:
 
         urls = re.sub('\&url\=https://', '\@', urls)
 
+        # collect videoURL and query strings
+        vurls = []
         for r in re.finditer('\@([^\@]+)' ,urls):
           videoURL = r.group(0)
+
+          query_str = urlparse.urlparse(videoURL).query
+          query = urlparse.parse_qs(query_str)
+
           log('found videoURL %s' % (videoURL))
-        videoURL1 = 'https://' + videoURL
+
+          item = {"videoURL":videoURL, "query":query}
+          vurls.append(item)
+
+        sorted_vurls = sorted(vurls, cmp=compare_quality)        
+        hq_videoURL = sorted_vurls[-1]["videoURL"]
+
+        videoURL1 = 'https://' + hq_videoURL
 
 
         response.close()

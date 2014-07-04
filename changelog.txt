@@ -1,9 +1,11 @@
+Version 0.2.8
 - fix plugin URLs to make compliant with plugins like PseudoTV Live
 - remove explicit UTF-8 calls [Error on load public url #2]
 - add remote-debugger code
 - cleanup of logging statements
 - don't login or provide authorization token for public videos (unless denied access)
 - add thumbnail previews
+- contribution from timchen86 - sort the videoURL by quality, so highest quality video would be played [for playback: streaming]
 Version 0.2.7
 - added streamURL parameter: mode=streamURL
 - playback a specific Google Drive Video URL (format: https://docs.google.com/file/d/#####/preview) via stream (automatically transcoded by Google Drive playback services)

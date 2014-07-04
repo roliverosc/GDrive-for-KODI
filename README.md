@@ -55,7 +55,7 @@ Modes:
 FAQ:
 
 1) Is there support for Google Apps Google Drive accounts?
-Yes.  Use your fully qualified username whether that is username@gmail.com or username@domain 
+Yes.  Use your fully qualified username whether that is username@gmail.com or username@domain
 
 2) Is there support for multiple accounts?
 Sort of.  For now, you should share all your videos from subsquent Google Drive accounts to the main Google Drive account that you use with this add-on.  The shared videos will appear in the index and are viewwable.
@@ -65,9 +65,20 @@ Not at this time.  I had no need for viewing files other then Video, therefore, 
 
 4) Any limitations?
 I've tested the add-on with several Google Drive accounts, including one with over 700 videos.
- 
-Current Version:
 
+Special Thanks:
+- everyone who contributes by providing questions, feedback and critism on the XBMC forum
+- timchen86 (code contribution)
+
+Current Version:
+0.2.8
+- fix plugin URLs to make compliant with plugins like PseudoTV Live
+- remove explicit UTF-8 calls [Error on load public url #2]
+- add remote-debugger code
+- cleanup of logging statements
+- don't login or provide authorization token for public videos (unless denied access)
+- add thumbnail previews
+- contribution from timchen86 - sort the videoURL by quality, so highest quality video would be played [for playback: streaming]
 0.2.7
 - added streamURL parameter: mode=streamURL
 - playback a specific Google Drive Video URL (format: https://docs.google.com/file/d/#####/preview) via stream (automatically transcoded by Google Drive playback services)

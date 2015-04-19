@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <strings>
     <string id="30000">gDrive</string>
-    <string id="30001">Username</string>
-    <string id="30002">Password</string>
-    <string id="30003">Authorization Key [OPTIONAL]</string>
-    <string id="30004">User Agent</string>
-    <string id="30006">Playback</string>
-    <string id="30005">Save Authorization Key</string>
-    <string id="30007">Always Prompt for Quality / Format Playback</string>
+    <string id="30001">Nome de Usuário</string>
+    <string id="30002">Senha</string>
+    <string id="30003">Autorização da chave [Opticional]</string>
+	<string id="30004">agente de usuário</string>
+    <string id="30006">Tipo de reprodução</string>
+    <string id="30005">Salve autorização da chave</string>
+    <string id="30007">Sempre Solicitar Qualidade / Formato Reprodução</string>
     <string id="30008">Login</string>
-    <string id="30009">Video + Music</string>
-    <string id="30010">Login Type</string>
-    <string id="30011">Preferred Quality</string>
-    <string id="30012">Preferred Format</string>
-    <string id="30013">Avoid Quality</string>
-    <string id="30014">Avoid Format</string>
+    <string id="30009">Reprodução</string>
+    <string id="30010">Tipo de login</string>
+    <string id="30011">Qualidade preferidos</string>
+    <string id="30012">formato preferido</string>
+    <string id="30013">Qualidade codec</string>
+    <string id="30014">Evite formato</string>
+    <string id="30015">Defina o nome de usuário e senha nas configurações do addon antes de executar.</string>
+    <string id="30016">Você deve adicionar à sua org.python.pydev.debug.pysrc PYTHONPATH.</string>
+    <string id="30017">Informações de login está incorreto ou permissão é negada</string>
+	<string id="30018">mostrar todos os</string>
+    <string id="30039">em ordem alfabética</string>
     <string id="30019">Force Prompt for Quality Selection</string>
-    <string id="30015">Set the Username and Password in addon settings before running.</string>
-    <string id="30016">You must add org.python.pydev.debug.pysrc to your PYTHONPATH.</string>
-    <string id="30017">Login information is incorrect or permission is denied</string>
-    <string id="30018">show all</string>
-    <string id="30039">sorted alphabetically</string>
     <string id="30020">Playback of this content is not possible.</string>
     <string id="30021">The media file is unavailable or was deleted.</string>
     <string id="30033">Choose a stream</string>
@@ -36,6 +36,7 @@
     <string id="30037">Context</string>
     <string id="30038">Photo cache folder</string>
 
+
     <string id="30090">Location to store cache files</string>
     <string id="30091">Chunk size</string>
     <string id="30092">Downloading...</string>
@@ -43,6 +44,15 @@
     <string id="30093">Percent to download before playback</string>
     <string id="30094">Music</string>
 
+    <string id="30095">Starred Files</string>
+    <string id="30096">Starred Folders</string>
+	<string id="30097">Starred Files & Folders</string>
+	<string id="30098">Shared Files & Folders</string>
+
+    <string id="30114">Downloads and Cache</string>
+    <string id="30115">Stream Perferences</string>
+    <string id="30116">Cache</string>
+    <string id="30117">Listings</string>
 
     <!-- CloudService Generic -->
 
@@ -80,11 +90,6 @@
     <string id="30079">XBMC version</string>
     <string id="30080">Last identifier error #</string>
 
-    <string id="30095">Starred Files</string>
-    <string id="30096">Starred Folders</string>
-	<string id="30097">Starred Files & Folders</string>
-	<string id="30098">Shared Files & Folders</string>
-
     <string id="30100">This feature is not supported on your version of XBMC / KODI</string>
 
     <string id="30110">Enter search string</string>
@@ -97,6 +102,11 @@
     <string id="30115">Stream Perferences</string>
     <string id="30116">Cache</string>
     <string id="30117">Listings</string>
+
+    <string id="30118">The following account was enrolled:</string>
+    <string id="30119">The following login error was encountered:</string>
+
+    <string id="30120">Select an account:</string>
     <string id="30121">Always cache for playback</string>
     <string id="30122">Never transcode</string>
     <string id="30123">Play original</string>
@@ -104,17 +114,10 @@
 	<string id="30125">Play offline</string>
 	<string id="30126">Slideshow</string>
 
-    <string id="30118">The following account was enrolled:</string>
-    <string id="30119">The following login error was encountered:</string>
-    <string id="30120">Select an account:</string>
-
     <string id="30201">OAUTH2 code</string>
     <string id="30202">OAUTH2 client id</string>
     <string id="30203">OAUTH2 client secret</string>
     <string id="30204">OAUTH2 URL</string>
     <string id="30205">Visit www.dmdsoftware.net for help setting up OAUTH2</string>
-
-    <string id="30118">Something went wrong with login setup.</string>
-
 
 </strings>

@@ -35,7 +35,7 @@ if KODI:
 
     # global variables
     #addon = xbmcaddon.Addon(id='plugin.video.gdrive')
-    addon = xbmcaddon.Addon(id='plugin.video.gdrive-testing')
+    addon = xbmcaddon.Addon(id='plugin.gdrive')
 
 else:
     from resources.libgui import xbmcaddon

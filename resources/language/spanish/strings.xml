@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+    <string id="30000">gDrive</string>
+    <string id="30001">Nombre de usuario</string>
+    <string id="30002">Contraseña</string>
+    <string id="30003">Clave de autorización [OPCIONAL]</string>
+    <string id="30004">User Agent</string>
+    <string id="30006">Reproducción</string>
+    <string id="30005">Guardar clave de autorización</string>
+    <string id="30007">Solicitar siempre calidad / Reproducción de formato</string>
+    <string id="30008">Iniciar de sesión</string>
+    <string id="30009">Vídeo + Música</string>
+    <string id="30010">Tipo de inicio de sesión</string>
+    <string id="30011">Calidad preferida</string>
+    <string id="30012">Formato preferido</string>
+    <string id="30013">Evitar calidad</string>
+    <string id="30014">Evitar formato</string>
+    <string id="30019">Forzar solicitud de selección de calidad</string>
+    <string id="30015">Establezca el nombre de usuario y la contraseña en la configuración del complemento antes de ejecutar.</string>
+    <string id="30016">Debe agregar org.python.pydev.debug.pysrc a su PYTHONPATH.</string>
+    <string id="30017">La información de inicio de sesión es incorrecta o se deniega el permiso</string>
+    <string id="30018">mostrar todo</string>
+    <string id="30039">ordenados alfabéticamente</string>
+    <string id="30020">No es posible reproducir este contenido.</string>
+    <string id="30021">El archivo multimedia no está disponible o se eliminó.</string>
+    <string id="30033">Selecciona un stream</string>
+    <string id="30022">Ver en el contexto del complemento de Video</string>
+    <string id="30023">Ver en el contexto del complemento de Música</string>
+    <string id="30024">Ver en el contexto del complemento de Fotos</string>
+    <string id="30025">Videos</string>
+    <string id="30029">Fotos</string>
+    <string id="30030">Medios</string>
+    <string id="30031">Video / Música</string>
+    <string id="30032">Música y Fotos</string>
+    <string id="30034">Fotos</string>
+    <string id="30037">Contexto</string>
+    <string id="30038">Carpeta de Fotos sin conexión</string>
+
+    <string id="30090">Ubicación para almacenar archivos sin conexión</string>
+    <string id="30091">Tamaño de fragmento</string>
+    <string id="30092">Descargando...</string>
+    <string id="30035">Almacenando en caché...</string>
+    <string id="30093">Porcentaje de búfer antes de la reproducción</string>
+    <string id="30094">Música</string>
+
+
+    <!-- CloudService Generic -->
+
+
+    <string id="30042">Guardar STRM</string>
+	<string id="30211">Guardar STRM Película/Serie TV</string>
+	<string id="30206">Generar/Guardar STRM Película/Serie TV</string>
+	<string id="30207">Registrar cuenta</string>
+	<string id="30208">Medio sin conexión</string>
+	<string id="30209">Cuenta registrada con éxito.</string>
+    <string id="30210">La inscripción debe completarse desde un dispositivo con un navegador web. En una computadora o dispositivo móvil, navegue</string>
+    <string id="30218"> y siga los dos pasos para completar el proceso de inscripción. Haga clic en Aceptar después de completar el proceso.</string>
+   	<string id="30212">PELÍCULAS</string>
+	<string id="30213">iniciado recientemente</string>
+	<string id="30214">visto recientemente</string>
+	<string id="30215">biblioteca</string>
+	<string id="30216">cola de reproducción</string>
+	<string id="30216">PELÍCULAS</string>
+	<string id="30217">Ajustes</string>
+	<string id="30219">Hacer por defecto</string>
+	<string id="30220">Inscribir muestra de escritura</string>
+	<string id="30221">Tareas programadas</string>
+	<string id="30222">Crear nueva tarea programada</string>
+	<string id="30223">Seleccionar una cuenta para exportar archivos STRM</string>
+	<string id="30224">Unidad para exportar archivos STRM</string>
+	<string id="30225">Frecuencia de exportación</string>
+	<string id="30226">Tipo de trabajo</string>
+	<string id="30227">Eliminar trabajo</string>
+	<string id="30228">Reproducir Google Transcode - </string>
+	<string id="30229">¿Catalogar en Películas/Series TV/Otro?</string>
+	<string id="30230">Frecuencia para ejecutar la tarea programada (minutos)</string>
+
+    <string id="30043">Opciones</string>
+
+    <string id="30051">Tu inicio de sesión falló.</string>
+    <string id="30052">Asegúrese de que su nombre de usuario y contraseña estén configurados en ajustes.</string>
+    <string id="30054">Listar archivos según</string>
+
+    <!-- CloudService Generic - Library -->
+    <string id="30060">Biblioteca KODI</string>
+    <string id="30061">Creación de STRM</string>
+    <string id="30062">Número de cuenta de GDrive para usar (registrado en cuentas)</string>
+    <string id="30063">Nombre de hoja de cálculo</string>
+    <string id="30064">¿Usar la integración con la biblioteca?</string>
+    <string id="30088">Ubicación para almacenar STRM de Películas (opcional) </string>
+    <string id="30089">Ubicación para almacenar STRM de Series TV (opcional) </string>
+    <string id="30026">Ubicación para almacenar STRMs</string>
+    <string id="30027">¿Quieres crear los archivos STRM en la ruta?</string>
+    <string id="30028">Creación de archivo STRM completada.</string>
+
+
+    <!-- CloudService Generic - Crash Reporting -->
+    <string id="30070">¿Le gustaría enviar los detalles del error al desarrollador?</string>
+    <string id="30071">No se enviarán contraseñas.</string>
+    <string id="30072">Se le proporcionará un número de identificación después del envío.</string>
+    <string id="30073">Su número de identificación del envío del error es </string>
+    <string id="30074">Inicio sesión</string>
+    <string id="30075">Habilitar el envío de registros de fallos al desarrollador</string>
+    <string id="30076">Dirección de correo electrónico (opcional)</string>
+    <string id="30077">La dirección de correo electrónico es para que el desarrollador se comunique con usted en.</string>
+    <string id="30078">SO</string>
+    <string id="30079">Versión XBMC/KODI</string>
+    <string id="30080">Error del último identificador #</string>
+
+    <string id="30095">Archivos destacados</string>
+    <string id="30096">Carpetas destacadas</string>
+	<string id="30097">Archivos & carpetas destacados</string>
+	<string id="30098">Archivos & carpetas compartidos</string>
+
+    <string id="30100">Esta función no es compatible con su versión de XBMC/KODI</string>
+
+    <string id="30110">Introduzca cadena de búsqueda</string>
+    <string id="30111">BUSCAR</string>
+    <string id="30112">Seleccione un resultado para reproducir</string>
+
+    <string id="30113">Hacer offline</string>
+
+    <string id="30114">Descargar</string>
+    <string id="30115">Preferencias Stream</string>
+    <string id="30116">Sin conexión</string>
+    <string id="30117">Listados</string>
+    <string id="30121">Siempre hacer offline para reproducir</string>
+    <string id="30122">Nunca transcodificar</string>
+    <string id="30123">Reproducir original</string>
+	<string id="30124">Reproducir + hacer offline</string>
+	<string id="30125">Reproducir offline</string>
+	<string id="30126">Diapositivas</string>
+
+	<string id="30127">EncFS</string>
+	<string id="30128">Origen EncFS</string>
+	<string id="30129">Destino EncFS</string>
+	<string id="30130">Guardar a EncFS</string>
+	<string id="30131">Unidad descifrada</string>
+	<string id="30132">Forzar en un solo archivo</string>
+	<string id="30133">Ocultar cuadros de diálogo "abriendo stream..."</string>
+	<string id="30134">Avanzar</string>
+	<string id="30135">Carpeta de subtítulos sin conexión</string>
+	<string id="30136">Seleccionar una carpeta sin conexión de subtítulos</string>
+	<string id="30137">¿Quieres crear los archivos de subtítulos en la ruta?</string>
+	<string id="30138">Reproducir con subtítulos</string>
+	<string id="30139">Seleccione un subtítulo</string>
+	<string id="30140">Visite www.dmdsoftware.net y seleccione el método de inicio de sesión de Google Apps.</string>
+	<string id="30141">Cuando se complete el registro, haga clic en Aceptar</string>
+	<string id="30142">Cuenta activada con éxito</string>
+	<string id="30143">Código de Google encontrado.  Haga clic en Aceptar para continuar con la activación.</string>
+	<string id="30144">Código de Google no encontrado.</string>
+	<string id="30145">Passcode</string>
+	<string id="30146">Reproducir con subtítulos</string>
+	<string id="30147">Empieza en</string>
+	<string id="30148">Reproducir reanudando</string>
+	<string id="30149">Habilitar pistas de subtítulos</string>
+	<string id="30150">Habilitar pistas SRT</string>
+	<string id="30151">Reproducir ...</string>
+	<string id="30152">Preferir para stream</string>
+
+    <string id="30118">Se inscribió la siguiente cuenta:</string>
+    <string id="30119">Se encontró el siguiente error de inicio de sesión:</string>
+    <string id="30120">Seleccionar una cuenta:</string>
+
+    <string id="30201">Código OAUTH2</string>
+    <string id="30202">ID de cliente OAUTH2</string>
+    <string id="30203">ID secreta de cliente OAUTH2</string>
+    <string id="30204">URL OAUTH2</string>
+    <string id="30205">Visite www.dmdsoftware.net para obtener ayuda con la configuración de OAUTH2</string>
+
+
+    <string id="30152">Algo salió mal con la configuración de inicio de sesión.</string>
+
+    <string id="30153">El tipo de ClientLogin ha sido retirado.</string>
+	<string id="30154">Vuelva a configurar la cuenta en ajustes.</string>
+
+	<string id="30155">Tipo de EncFS</string>
+	<string id="30156">Analizar información de Serie TV según título</string>
+	<string id="30157">Analizar información de Música según título</string>
+	<string id="30158">Cuenta eliminada del complemento</string>
+	<string id="30159">Eliminar cuenta del complemento</string>
+    <string id="30160">Imágenes</string>
+    <string id="30161">Porcentaje para marcar como visto</string>
+    <string id="30162">Reproducir toda la carpeta</string>
+	<string id="30163">Escanear información de medios</string>
+
+	<string id="30164">Cargar solo SRT/SUB de la misma carpeta que el vídeo</string>
+	<string id="30165">Cifrado</string>
+	<string id="30166">Las Fotos solo son visibles en el área imágenes</string>
+	<string id="30167">Evitar formato</string>
+	<string id="30168">El formato FLV no admite reanudar</string>
+
+	<string id="30170">Punto de reanudación y recuento de reproducción</string>
+	<string id="30171">Solo local</string>
+	<string id="30172">Propiedad del archivo de Google Drive (se requiere acceso de escritura)</string>
+
+	<string id="30173">ID de hoja de cálculo de Cloud Media</string>
+
+	<string id="30174">Continuar descargando después de que el usuario detenga la reproducción</string>
+	<string id="30175">Siempre reanudar</string>
+	<string id="30176">¿Reanudar la reproducción?</string>
+	<string id="30177">Nube:</string>
+	<string id="30178">Marcar como visto</string>
+	<string id="30179">Cola</string>
+	<string id="30180">Ordenar por</string>
+	<string id="30181">SRT Offline</string>
+	<string id="30182">Miniaturas Offline</string>
+	<string id="30183">Seleccione el archivo SRT a cargar</string>
+
+	<string id="30184">Habilitar el registro de seguimiento</string>
+
+	<string id="30185">Resolución de la foto</string>
+	<string id="30186">Tipo de descarga</string>
+
+	<string id="30187">Streamer experimental</string>
+
+	<string id="30188">Cuenta predeterminada para STRM</string>
+	<string id="30189">Creación automática de STRM</string>
+
+	<string id="30190">Cryptomoneda</string>
+	<string id="30191">Archivo Salt</string>
+	<string id="30192">[Tratar como EncFS]</string>
+	<string id="30193">[Tratar como Cryptomoneda]</string>
+	<string id="30194">Streamer</string>
+	<string id="30195">Puerto</string>
+
+
+	<string id="30196">Experimental</string>
+	<string id="30197">Actualizar vistos en bd de Series TV</string>
+	<string id="30198">Actualizar vistos en bd de Películas</string>
+	<string id="30199">Cargar detalles de medios desde bd KODI</string>
+
+	<string id="30200">Mi Unidad</string>
+
+
+</strings>

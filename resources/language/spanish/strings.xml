@@ -7,12 +7,12 @@
     <string id="30004">User Agent</string>
     <string id="30006">Reproducción</string>
     <string id="30005">Guardar clave de autorización</string>
-    <string id="30007">Solicitar siempre calidad / Reproducción de formato</string>
-    <string id="30008">Iniciar de sesión</string>
+    <string id="30007">Preguntar siempre por calidad/formato de reproducción</string>
+    <string id="30008">Inicio de sesión</string>
     <string id="30009">Vídeo + Música</string>
     <string id="30010">Tipo de inicio de sesión</string>
-    <string id="30011">Calidad preferida</string>
-    <string id="30012">Formato preferido</string>
+    <string id="30011">Calidad</string>
+    <string id="30012">Formato</string>
     <string id="30013">Evitar calidad</string>
     <string id="30014">Evitar formato</string>
     <string id="30019">Forzar solicitud de selección de calidad</string>
@@ -24,9 +24,9 @@
     <string id="30020">No es posible reproducir este contenido.</string>
     <string id="30021">El archivo multimedia no está disponible o se eliminó.</string>
     <string id="30033">Selecciona un stream</string>
-    <string id="30022">Ver en el contexto del complemento de Video</string>
-    <string id="30023">Ver en el contexto del complemento de Música</string>
-    <string id="30024">Ver en el contexto del complemento de Fotos</string>
+    <string id="30022">Mostrar en el contexto del complemento de Video</string>
+    <string id="30023">Mostrar en el contexto del complemento de Música</string>
+    <string id="30024">Mostrar en el contexto del complemento de Fotos</string>
     <string id="30025">Videos</string>
     <string id="30029">Fotos</string>
     <string id="30030">Medios</string>
@@ -49,12 +49,12 @@
 
     <string id="30042">Guardar STRM</string>
 	<string id="30211">Guardar STRM Película/Serie TV</string>
-	<string id="30206">Generar/Guardar STRM Película/Serie TV</string>
+	<string id="30206">Generar/Guardar STRM de Película/Serie TV</string>
 	<string id="30207">Registrar cuenta</string>
 	<string id="30208">Medio sin conexión</string>
 	<string id="30209">Cuenta registrada con éxito.</string>
-    <string id="30210">La inscripción debe completarse desde un dispositivo con un navegador web. En una computadora o dispositivo móvil, navegue</string>
-    <string id="30218"> y siga los dos pasos para completar el proceso de inscripción. Haga clic en Aceptar después de completar el proceso.</string>
+    <string id="30210">La inscripción debe completarse desde un dispositivo con un navegador web. En una computadora o dispositivo móvil, vaya a</string>
+    <string id="30218">y siga los dos pasos para completar el proceso de inscripción. Haga clic en OK después de completar el proceso.</string>
    	<string id="30212">PELÍCULAS</string>
 	<string id="30213">iniciado recientemente</string>
 	<string id="30214">visto recientemente</string>
@@ -63,10 +63,10 @@
 	<string id="30216">PELÍCULAS</string>
 	<string id="30217">Ajustes</string>
 	<string id="30219">Hacer por defecto</string>
-	<string id="30220">Inscribir muestra de escritura</string>
+	<string id="30220">Registrar token de escritura</string>
 	<string id="30221">Tareas programadas</string>
 	<string id="30222">Crear nueva tarea programada</string>
-	<string id="30223">Seleccionar una cuenta para exportar archivos STRM</string>
+	<string id="30223">Selecciona una cuenta para exportar archivos STRM</string>
 	<string id="30224">Unidad para exportar archivos STRM</string>
 	<string id="30225">Frecuencia de exportación</string>
 	<string id="30226">Tipo de trabajo</string>
@@ -77,7 +77,7 @@
 
     <string id="30043">Opciones</string>
 
-    <string id="30051">Tu inicio de sesión falló.</string>
+    <string id="30051">Error en su inicio de sesión.</string>
     <string id="30052">Asegúrese de que su nombre de usuario y contraseña estén configurados en ajustes.</string>
     <string id="30054">Listar archivos según</string>
 
@@ -85,12 +85,12 @@
     <string id="30060">Biblioteca KODI</string>
     <string id="30061">Creación de STRM</string>
     <string id="30062">Número de cuenta de GDrive para usar (registrado en cuentas)</string>
-    <string id="30063">Nombre de hoja de cálculo</string>
+    <string id="30063">Nombre Spredsheet</string>
     <string id="30064">¿Usar la integración con la biblioteca?</string>
     <string id="30088">Ubicación para almacenar STRM de Películas (opcional) </string>
     <string id="30089">Ubicación para almacenar STRM de Series TV (opcional) </string>
     <string id="30026">Ubicación para almacenar STRMs</string>
-    <string id="30027">¿Quieres crear los archivos STRM en la ruta?</string>
+    <string id="30027">¿Quiere crear los archivos STRM en la ruta?</string>
     <string id="30028">Creación de archivo STRM completada.</string>
 
 
@@ -100,7 +100,7 @@
     <string id="30072">Se le proporcionará un número de identificación después del envío.</string>
     <string id="30073">Su número de identificación del envío del error es </string>
     <string id="30074">Inicio sesión</string>
-    <string id="30075">Habilitar el envío de registros de fallos al desarrollador</string>
+    <string id="30075">Activar el envío de registros de errores al desarrollador</string>
     <string id="30076">Dirección de correo electrónico (opcional)</string>
     <string id="30077">La dirección de correo electrónico es para que el desarrollador se comunique con usted en.</string>
     <string id="30078">SO</string>
@@ -121,10 +121,10 @@
     <string id="30113">Hacer offline</string>
 
     <string id="30114">Descargar</string>
-    <string id="30115">Preferencias Stream</string>
+    <string id="30115">Preferencias para Stream</string>
     <string id="30116">Sin conexión</string>
     <string id="30117">Listados</string>
-    <string id="30121">Siempre hacer offline para reproducir</string>
+    <string id="30121">Hacer siempre offline para reproducir</string>
     <string id="30122">Nunca transcodificar</string>
     <string id="30123">Reproducir original</string>
 	<string id="30124">Reproducir + hacer offline</string>
@@ -132,22 +132,22 @@
 	<string id="30126">Diapositivas</string>
 
 	<string id="30127">EncFS</string>
-	<string id="30128">Origen EncFS</string>
+	<string id="30128">Fuente EncFS</string>
 	<string id="30129">Destino EncFS</string>
 	<string id="30130">Guardar a EncFS</string>
 	<string id="30131">Unidad descifrada</string>
 	<string id="30132">Forzar en un solo archivo</string>
 	<string id="30133">Ocultar cuadros de diálogo "abriendo stream..."</string>
-	<string id="30134">Avanzar</string>
+	<string id="30134">Avanzado</string>
 	<string id="30135">Carpeta de subtítulos sin conexión</string>
 	<string id="30136">Seleccionar una carpeta sin conexión de subtítulos</string>
 	<string id="30137">¿Quieres crear los archivos de subtítulos en la ruta?</string>
 	<string id="30138">Reproducir con subtítulos</string>
 	<string id="30139">Seleccione un subtítulo</string>
 	<string id="30140">Visite www.dmdsoftware.net y seleccione el método de inicio de sesión de Google Apps.</string>
-	<string id="30141">Cuando se complete el registro, haga clic en Aceptar</string>
+	<string id="30141">Cuando se complete el registro, haga clic en OK</string>
 	<string id="30142">Cuenta activada con éxito</string>
-	<string id="30143">Código de Google encontrado.  Haga clic en Aceptar para continuar con la activación.</string>
+	<string id="30143">Código de Google encontrado.  Haga clic en OK para continuar con la activación.</string>
 	<string id="30144">Código de Google no encontrado.</string>
 	<string id="30145">Passcode</string>
 	<string id="30146">Reproducir con subtítulos</string>
@@ -197,17 +197,17 @@
 	<string id="30173">ID de hoja de cálculo de Cloud Media</string>
 
 	<string id="30174">Continuar descargando después de que el usuario detenga la reproducción</string>
-	<string id="30175">Siempre reanudar</string>
+	<string id="30175">Reanudar siempre</string>
 	<string id="30176">¿Reanudar la reproducción?</string>
 	<string id="30177">Nube:</string>
 	<string id="30178">Marcar como visto</string>
 	<string id="30179">Cola</string>
 	<string id="30180">Ordenar por</string>
-	<string id="30181">SRT Offline</string>
-	<string id="30182">Miniaturas Offline</string>
+	<string id="30181">SRT offline</string>
+	<string id="30182">Miniaturas offline</string>
 	<string id="30183">Seleccione el archivo SRT a cargar</string>
 
-	<string id="30184">Habilitar el registro de seguimiento</string>
+	<string id="30184">Habilitar el registro del inicio de sesión</string>
 
 	<string id="30185">Resolución de la foto</string>
 	<string id="30186">Tipo de descarga</string>
@@ -228,7 +228,7 @@
 	<string id="30196">Experimental</string>
 	<string id="30197">Actualizar vistos en bd de Series TV</string>
 	<string id="30198">Actualizar vistos en bd de Películas</string>
-	<string id="30199">Cargar detalles de medios desde bd KODI</string>
+	<string id="30199">Cargar detalles multimedia desde bd KODI</string>
 
 	<string id="30200">Mi Unidad</string>
 
